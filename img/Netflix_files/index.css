@@ -1,0 +1,9 @@
+*{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+.cover{
+	background: url(./img/tv.png);
+}
