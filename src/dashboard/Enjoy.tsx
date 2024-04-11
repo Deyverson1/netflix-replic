@@ -9,7 +9,7 @@ export default function Enjoy() {
         </div>
         <div className="derecha flotanteImagen">
           <img src="img/device-pile.png" alt="" />
-          <video className="our-story-card-video" autoPlay muted loop>
+          <video className="" autoPlay muted loop>
             <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" type="video/mp4" />
           </video>
         </div>

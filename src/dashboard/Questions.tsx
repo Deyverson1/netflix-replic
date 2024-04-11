@@ -1,9 +1,11 @@
+import { ArrowRight } from '../icons/ArrowRight'
 import '../styles/css/style.css'
 export default function Questions() {
   return (
     <section className="preguntas">
       <div className="contPreguntas">
-        <h2>Preguntas frecuentes</h2>
+        <h2>
+          Frequently Asked Questions</h2>
         <br />
         <div className="pregunta">
           <p>¿Qué es Netflix?</p>
@@ -40,9 +42,15 @@ export default function Questions() {
             <p>Netflix tiene un amplio catálogo de programas, películas, documentales, animes, originales premiados y más. Todo lo que quieras ver, cuando quieras.</p>
           </div>
         </div>
-        <input type="email" placeholder="Email" />
-        <span>PROBAR AHORA </span>
-        <h3>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta de Netflix o acceder a la tuya.</h3>
+        <section className='flex flex-col gap-y-4 pt-16 pb-5'>
+          <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+          <div className='flex items-center gap-x-2'>
+            <input type="email" placeholder="Email address" className='w-8/12 p-4 text-sm bg-neutral-900 rounded-md' />
+            <button className='bg-[#E50914] text-lg p-3 gap-x-2 flex justify-center items-center font-bold rounded-lg hover:bg-[#ff3d3d]'>Get Started <div>
+              <ArrowRight />
+            </div></button>
+          </div>
+        </section>
       </div>
     </section>
   )

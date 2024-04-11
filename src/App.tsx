@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <Header />
-      <Content/>
-      <Download/>
+      <Content />
+      <Download />
       <Enjoy />
       <Questions />
       <Footer />
