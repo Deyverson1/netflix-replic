@@ -2,11 +2,11 @@ import { ArrowRight } from '../icons/ArrowRight'
 import '../styles/css/style.css'
 export default function Questions() {
   return (
-    <section className="preguntas">
-      <div className="contPreguntas">
-        <h2>
+    <section className="flex items-center preguntas">
+      <div className="flex flex-col contPreguntas gap-y-2">
+        <h2 className='pt-10 pb-2 text-2xl'>
           Frequently Asked Questions</h2>
-        <br />
+
         <div className="pregunta">
           <p>¿Qué es Netflix?</p>
           <div className="respuesta">
@@ -42,10 +42,10 @@ export default function Questions() {
             <p>Netflix tiene un amplio catálogo de programas, películas, documentales, animes, originales premiados y más. Todo lo que quieras ver, cuando quieras.</p>
           </div>
         </div>
-        <section className='flex flex-col gap-y-4 pt-16 pb-5'>
+        <section className='flex flex-col w-full pt-16 pb-5 text-center gap-y-4'>
           <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
-          <div className='flex items-center gap-x-2'>
-            <input type="email" placeholder="Email address" className='w-8/12 p-4 text-sm bg-neutral-900 rounded-md' />
+          <div className='flex items-center justify-center gap-x-2'>
+            <input type="email" placeholder="Email address" className='w-8/12 p-4 text-sm rounded-md bg-neutral-900' />
             <button className='bg-[#E50914] text-lg p-3 gap-x-2 flex justify-center items-center font-bold rounded-lg hover:bg-[#ff3d3d]'>Get Started <div>
               <ArrowRight />
             </div></button>
