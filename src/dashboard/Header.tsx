@@ -2,9 +2,8 @@ import '../styles/css/style.css'
 export default function Header() {
   return (
     <>
-      <div className="h-screen" style={{ backgroundImage: 'url(../img/FondoNetflix.jpg)' }}></div>
-      <section className="cabecera px-36 pt-7">
-        <nav className='flex  justify-between items-center'>
+      <section className="px-40 py-56 cabecera pt-7">
+        <nav className='flex items-center justify-between'>
           <div className="">
             <img className="w-36" src="img/logo.png" alt="" />
           </div>

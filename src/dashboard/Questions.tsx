@@ -1,3 +1,4 @@
+import GetStartedInput from '../components/GetStarted'
 import { ArrowRight } from '../icons/ArrowRight'
 import '../styles/css/style.css'
 export default function Questions() {
@@ -42,15 +43,7 @@ export default function Questions() {
             <p>Netflix tiene un amplio catálogo de programas, películas, documentales, animes, originales premiados y más. Todo lo que quieras ver, cuando quieras.</p>
           </div>
         </div>
-        <section className='flex flex-col w-full pt-16 pb-5 text-center gap-y-4'>
-          <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
-          <div className='flex items-center justify-center gap-x-2'>
-            <input type="email" placeholder="Email address" className='w-8/12 p-4 text-sm rounded-md bg-neutral-900' />
-            <button className='bg-[#E50914] text-lg p-3 gap-x-2 flex justify-center items-center font-bold rounded-lg hover:bg-[#ff3d3d]'>Get Started <div>
-              <ArrowRight />
-            </div></button>
-          </div>
-        </section>
+       <GetStartedInput/>
       </div>
     </section>
   )

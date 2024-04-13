@@ -50,7 +50,7 @@ section.cabecera {
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
-	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.9) 100%);
 }
 
 div.logo {
@@ -147,9 +147,11 @@ div.login span {
 	width: 380px;
 	/* z-index: ; */
 }
-.tracking-tight{
+
+.tracking-tight {
 	line-height: 18px !important;
 }
+
 .disfruta-video {
 	/* position: absolute; */
 	transform: translate(-2px, -64px);
