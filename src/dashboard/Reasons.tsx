@@ -1,7 +1,7 @@
 export default function Reason(){
-  const data = [
-    {title: 'Enjoy on your TV', description: 'Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.', icon: ''}
-  ]
+  // const data = [
+  //   {title: 'Enjoy on your TV', description: 'Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.', icon: ''}
+  // ]
   return(
     <section className="px-40 pt-56">
       <h3 className="text-2xl font-semibold text-gray-100">More Reasons to Join</h3>

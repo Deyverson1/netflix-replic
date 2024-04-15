@@ -1,5 +1,4 @@
 import GetStartedInput from '../components/GetStarted'
-import { ArrowRight } from '../icons/ArrowRight'
 import '../styles/css/style.css'
 export default function Questions() {
   return (

@@ -5,7 +5,6 @@ import GetStartedInput from '../components/GetStarted';
 
 export default function CarouselDashboard() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [valueIndex, setValueIndex] = useState(0)
   const handleSlideChange = (index: number) => {
     if(index - 2 === -1){
       setCurrentSlide(2)
