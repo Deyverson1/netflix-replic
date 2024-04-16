@@ -14,8 +14,7 @@ body {
 
 
 section div.contenido {
-	width: 1100px;
-
+	width: 100%;
 	margin: auto;
 	display: flex;
 	justify-content: center;
@@ -155,8 +154,8 @@ div.login span {
 
 .disfruta-video {
 	/* position: absolute; */
-	transform: translate(-2px, -64px);
-	width: 323px;
+	/* transform: translate(-2px, -64px); */
+	/* width: 323px; */
 	/* z-index: 1; */
 }
 
@@ -192,7 +191,7 @@ div.login span {
 
 .contPreguntas {
 	/* width: 650px; */
-	padding-inline: 156px;
+	/* padding-inline: 156px; */
 	margin: auto;
 
 }
@@ -208,7 +207,7 @@ div.login span {
 	/* margin-bottom: 5px; */
 	/* margin-top: 5px; */
 	cursor: pointer;
-	width: 850px;
+	width: 100%;
 }
 
 .respuesta {
