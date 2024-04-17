@@ -5,7 +5,7 @@ export default function Download() {
       <div className="flex flex-col-reverse items-center justify-center md:flex-row">
         <div className="w-6/12 izquierda ">
           <div className="flex items-center justify-center md:flex-row ">
-            <img className='w-full' src="img/mobile-0819.jpg" alt="" />
+            <img className='w-8/12' src="img/mobile-0819.jpg" alt="" />
             <div className="absolute p-2 translate-y-24 md:translate-y-40  border-2 border-[#434343] flex items-center justify-center bg-black rounded-md w-fit">
               <div className="flex items-center justify-center w-4/5 ">
                 <div className="">
@@ -23,7 +23,7 @@ export default function Download() {
             </div>
           </div>
         </div>
-        <div className="md:pt-20 md:w-7/12 derecha flotanteTexto">
+        <div className="md:pt-20 md:w-5/12 derecha flotanteTexto">
           <h2 className='w-full pb-5 text-4xl font-semibold md:text-5xl'>Descarga contenidos para ver donde vayas.</h2>
           <p className='pl-1 text-lg tracking-tight'>Disfruta offline tus películas y programas favoritos.</p>
         </div>

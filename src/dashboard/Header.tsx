@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../styles/css/style.css'
 export default function Header() {
   return (
@@ -8,10 +9,9 @@ export default function Header() {
             <img className="w-20 md:w-36" src="img/logo.png" alt="" />
           </div>
           <div className="">
-            <span className='bg-[#E50914] px-4 text-sm font-semibold py-1.5 rounded-md hover:bg-[#ff3d3d] cursor-pointer'>Sign In</span>
+            <Link to={'/login'}><span className='bg-[#E50914] px-4 text-sm font-semibold py-1.5 rounded-md hover:bg-[#ff3d3d] cursor-pointer'>Sign In</span></Link>
           </div>
         </nav>
-
       </section>
     </>
   )

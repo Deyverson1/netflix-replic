@@ -6,13 +6,13 @@ import GetStartedInput from '../components/GetStarted';
 export default function CarouselDashboard() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const handleSlideChange = (index: number) => {
-    if(index - 2 === -1){
+    if (index - 2 === -1) {
       setCurrentSlide(2)
-    }else if(index - 2 === -2){
+    } else if (index - 2 === -2) {
       setCurrentSlide(1)
-    } else if (index -2 === 0){
+    } else if (index - 2 === 0) {
       setCurrentSlide(0)
-    } else{
+    } else {
       setCurrentSlide(Math.abs(index - 2))
     }
     // console.log((index - 2))
@@ -36,8 +36,7 @@ export default function CarouselDashboard() {
     <div className='w-full h-screen'>
       <div
         className='flex flex-col items-center justify-center w-full h-full bg-center bg-cover '
-        style={{ backgroundImage: `url(${backgrounds[currentSlide]})`, aspectRatio: '16/9'}}
-      >
+        style={{ backgroundImage: `url(${backgrounds[currentSlide]})`, aspectRatio: '16/9' }}>
         <Carousel
           className='flex justify-start w-full px-8 md:px-40'
           arrows={true}
@@ -47,9 +46,8 @@ export default function CarouselDashboard() {
           autoPlay={false}
           autoPlaySpeed={3000}
           infinite={true}
-          beforeChange={handleSlideChange}
-        >
-
+          beforeChange={handleSlideChange}>
+            
           <div id="slide1" className='w-10/12 pt-64 md:w-5/12 md:pt-52'>
             <h1 className='w-full text-3xl font-bold md:text-6xl'>Unlimited movies, TV shows, and more</h1>
             <h2 className='pt-4 text-lg font-semibold'>Starts at COP 16,900. Cancel anytime.</h2>
