@@ -26,10 +26,10 @@ export default function CarouselDashboard() {
   };
 
   const backgrounds = [
-    'https://assets.nflxext.com/ffe/siteui/vlv3/c1366fb4-3292-4428-9639-b73f25539794/a7ec3522-a8e1-47be-a8e1-e12070dd3d5b/CO-en-20240408-popsignuptwoweeks-perspective_alpha_website_medium.jpg',
+    'https://assets.nflxext.com/ffe/siteui/vlv3/9f46b569-aff7-4975-9b8e-3212e4637f16/19824ecf-794c-44aa-ae8a-d987a8feee3e/CO-en-20240415-popsignuptwoweeks-perspective_alpha_website_large.jpg',
     'https://occ-0-3933-3934.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABQ_e4eijzlYYEcteFvJlfOu-1HXsGM6HoXr2ZrlGL0_hDFLhfTCgYwrN8m557iDaMIFHY-Ym_ualbJBciFw8UctwXrq8IIU3Mvlp.webp?r=1e5',
     'https://occ-0-3933-3934.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABTQFHTx6huB9WmwuzkyAWnXRMp_kgLcgqSuVW7sYwEM6I7H14dTW3I_Mi2GyNSMFjBV4Dp2ltjvwO7QVtFwVH3J1YD3PjZ9DSzxj.webp?r=da9',
-    'https://assets.nflxext.com/ffe/siteui/vlv3/c1366fb4-3292-4428-9639-b73f25539794/a7ec3522-a8e1-47be-a8e1-e12070dd3d5b/CO-en-20240408-popsignuptwoweeks-perspective_alpha_website_medium.jpg',
+    'https://assets.nflxext.com/ffe/siteui/vlv3/9f46b569-aff7-4975-9b8e-3212e4637f16/19824ecf-794c-44aa-ae8a-d987a8feee3e/CO-en-20240415-popsignuptwoweeks-perspective_alpha_website_large.jpg',
   ];
 
   return (
