@@ -1,4 +1,5 @@
 import 'react-multi-carousel/lib/styles.css';
+import '../styles/css/netflix.css'
 import Carousel from 'react-multi-carousel';
 interface CarouselProps {
   populars: any
@@ -23,11 +24,10 @@ export default function CarouselNetflix({ populars }: CarouselProps) {
     }
   }
   return (
-    <div className='carousel-container'>
-      <h5>Aliados</h5>
+    <div className=''>
       <div className="slide-container">
         <Carousel
-          className='carousel'
+          className=''
           arrows={true}
           responsive={responsive}
           draggable={true}
@@ -37,13 +37,13 @@ export default function CarouselNetflix({ populars }: CarouselProps) {
           // autoPlaySpeed={3000}
           rewind={true}
           infinite={true}
-          centerMode={true}
-          slidesToSlide={5}
+          // centerMode={true}
+          slidesToSlide={6}
         >
 
           {populars.map((dato: any, index: number) => (
             <div className='flex px-1' key={index}>
-              <img key={index} src={dato.image} alt={dato.alt} className='rounded-sm'/>
+              <img key={index} src={dato.image} alt={dato.alt} className='rounded-sm' />
             </div>
           ))}
 

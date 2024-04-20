@@ -28,7 +28,8 @@ export default function NetflixContent(){
   ]
   return(
     <section className="pb-56">
-      <section>
+      <section className="relative flex flex-col gap-y-2 -top-48">
+        <h1 className="text-xl">Imaginate TV Shows</h1>
         <CarouselNetflix populars={populars}/>
       </section>
     </section>

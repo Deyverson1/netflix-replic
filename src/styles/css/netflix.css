@@ -10,3 +10,45 @@
 	bottom: 0px;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.6) 40%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0.5) 100%), linear-gradient(to right, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 20%, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.1) 80%, rgba(0, 0, 0, 0) 100%);
 }
+/* Estilos para las flechas del Carousel */
+.react-multi-carousel-dot button {
+  background-color: transparent; /* Color de fondo transparente */
+  border: none; /* Sin borde */
+  outline: none; /* Sin contorno al hacer clic */
+  cursor: pointer; /* Cursor apuntador */
+  padding: 0; /* Sin relleno */
+  margin: 0; /* Sin margen */
+}
+
+/* Estilos para las flechas del Carousel */
+.react-multi-carousel-dot button:hover {
+  /* Estilos al pasar el ratón sobre las flechas */
+  /* Puedes personalizar aquí */
+}
+.react-multi-carousel-list  button{
+  color: red !important;
+  height: 100%;
+  
+}
+.react-multiple-carousel__arrow{
+  border-radius: 3px !important;
+}
+.react-multiple-carousel__arrow--left {
+  left: 3px !important;
+}
+.react-multiple-carousel__arrow--right{
+  right: 4px !important;
+}
+.react-multiple-carousel__arrow .react-multiple-carousel__arrow--right{
+  background-color: red !important;
+} 
+/* Estilos para la flecha izquierda */
+.react-multi-carousel-dot button.react-multiple-carousel__arrow--left {
+  /* Personaliza los estilos de la flecha izquierda aquí */
+  background-color: red !important;
+}
+
+/* Estilos para la flecha derecha */
+.react-multi-carousel-dot button.react-multiple-carousel__arrow--right {
+  /* Personaliza los estilos de la flecha derecha aquí */
+}

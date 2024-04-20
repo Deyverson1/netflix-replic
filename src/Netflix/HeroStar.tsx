@@ -4,7 +4,7 @@ import { Top } from "../icons/Top";
 import '../styles/css/netflix.css'
 export default function HeroStar() {
   return (
-    <div className="w-screen h-screen pt-8 bg-cover px-14" style={{ backgroundImage: 'url(https://occ-0-3933-3934.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRUkbJwNTG0p1FjCUzBvhlwLHrUFzLoFl10gpbOtGZ27MSt8zyMBzXg2IS6xmYQI42W986k6brypXdB_V1c5xKbd-ls_IGowW1O_.webp?r=18e)', backgroundRepeat: 'no-repeat' }}>
+    <div className="h-screen pt-16 bg-cover px-14" style={{ backgroundImage: 'url(https://occ-0-3933-3934.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRUkbJwNTG0p1FjCUzBvhlwLHrUFzLoFl10gpbOtGZ27MSt8zyMBzXg2IS6xmYQI42W986k6brypXdB_V1c5xKbd-ls_IGowW1O_.webp?r=18e)', backgroundRepeat: 'no-repeat' }}>
       <div className="flex flex-col w-5/12 gap-y-4">
         <img src="https://occ-0-3933-3934.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABbTSepjlQfmc_FE0RQsQjT8bTl091nyRHz0C0sG-vAtSgS34oaxKSAQ5NxEg8XrsAzyjwCsNFwh7vyhEZAqmeeDOymFtR-XwEEOnu9GKRoJw.webp?r=fac" className="w-11/12" alt="" />
         <div className="flex items-center gap-x-4">
