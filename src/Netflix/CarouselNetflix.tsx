@@ -2,9 +2,9 @@ import 'react-multi-carousel/lib/styles.css';
 import '../styles/css/netflix.css'
 import Carousel from 'react-multi-carousel';
 interface CarouselProps {
-  populars: any
+  content: any
 }
-export default function CarouselNetflix({ populars }: CarouselProps) {
+export default function CarouselNetflix({ content }: CarouselProps) {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -40,7 +40,7 @@ export default function CarouselNetflix({ populars }: CarouselProps) {
           infinite={true}
           slidesToSlide={6}
         >
-          {populars.map((dato: any, index: number) => (
+          {content.map((dato: any, index: number) => (
             <div className='flex px-0.5' key={index}>
               <img key={index} src={dato.image} alt={dato.alt} className='rounded-sm' />
             </div>
