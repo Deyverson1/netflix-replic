@@ -4,8 +4,14 @@ import { PlayerIcon } from "../icons/Player";
 import { Top } from "../icons/Top";
 import { useEffect, useState } from 'react';
 import { HeroStarData } from '../database/HeroStar';
+interface HeroStarItem {
+  description: string;
+  image: string;
+  brand: string;
+  top: string;
+}
 export default function HeroStar() {
-  const [randomItem, setRandomItem] = useState(null);
+  const [randomItem, setRandomItem] = useState<HeroStarItem | undefined>(undefined);
 
   useEffect(() => {
     const randomIndex = Math.floor(Math.random() * HeroStarData.length);
@@ -14,13 +20,13 @@ export default function HeroStar() {
 
   if (!randomItem) return null;
   return (
-    <div className="top-0 h-screen bg-cover 2xl:pt-56 md:pt-40 px-14" style={{ backgroundImage: `${randomItem.image}`, backgroundRepeat: 'no-repeat', backgroundSize: '100%' }}>
+    <div className="top-0 h-screen bg-cover 2xl:pt-56 md:pt-40 px-14" style={{ backgroundImage: `${randomItem?.image}`, backgroundRepeat: 'no-repeat', backgroundSize: '100%' }}>
       <div className="netflix"></div>
       <div className="netflix2"></div>
       <div className="relative flex flex-col w-5/12 gap-y-4">
         <img src={randomItem.brand} className="w-8/12" alt="" />
         {
-          randomItem.top && (
+          randomItem !== null && randomItem !== undefined && (
             <div className="flex items-center gap-x-4">
               <div className="w-8">
                 <Top />
