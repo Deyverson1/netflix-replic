@@ -16,7 +16,7 @@ export default function Profiles() {
           </article>
         ))}
       </div>
-      <button className="px-6 py-2 text-lg font-semibold text-gray-400 bg-transparent border-2 border-gray-500 rounded-sm hover:text-gray-100 hover:border-gray-100">Administrar perfiles</button>
+      <button className="px-6 py-2 text-lg font-semibold text-gray-400 bg-transparent border-2 border-gray-500 rounded-sm hover:text-gray-100 hover:border-gray-100">Manage profiles</button>
     </section>
   )
 }

@@ -38,7 +38,7 @@ export default function HeroStar() {
         <h2 className="w-11/12 text-lg">{randomItem.description}</h2>
         <div className="flex gap-x-4">
           <button className="flex items-center justify-center px-6 py-3 text-base font-bold text-black bg-white rounded-sm gap-x-2"><PlayerIcon /> Play</button>
-          <button className="flex items-center justify-center px-6 py-3 text-base font-bold text-white bg-gray-600 rounded-sm gap-x-2"><AlertIcon /> More info</button>
+          <button className="flex items-center justify-center px-6 py-3 text-base font-bold text-white bg-gray-500 rounded-sm gap-x-2"><AlertIcon /> More info</button>
         </div>
       </div>
     </div>
