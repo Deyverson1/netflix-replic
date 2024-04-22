@@ -28,36 +28,36 @@ export default function NetflixContent(){
       // {image: '', alt: ''},
   ]
   return(
-    <section className="pt-12 background-section">
-      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+    <section className="relative z-10 pt-12 pb-0 bg-transparent -mb-36 h-fit -top-48">
+      <section className="flex flex-col py-5 px-14 gap-y-2">
         <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
         <CarouselNetflix populars={populars}/>
       </section>
-      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 ">
         <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
         <CarouselNetflix populars={populars}/>
       </section>
-      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 ">
         <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
         <CarouselNetflix populars={populars}/>
       </section>
-      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 ">
         <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
         <CarouselNetflix populars={populars}/>
       </section>
-      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 ">
         <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
         <CarouselNetflix populars={populars}/>
       </section>
-      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 ">
         <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
         <CarouselNetflix populars={populars}/>
       </section>
-      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 ">
         <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
         <CarouselNetflix populars={populars}/>
       </section>
-      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 ">
         <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
         <CarouselNetflix populars={populars}/>
       </section>
