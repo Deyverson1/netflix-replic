@@ -1,4 +1,5 @@
 import CarouselNetflix from "./CarouselNetflix";
+import '../styles/css/netflix.css'
 export default function NetflixContent(){
   const populars = [
       {image: 'https://occ-0-3933-3934.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABei8IL-UhLw3Po02642EcjViVtyxeZmJL2yl5mNSjchhDdlFcB4xq4GkItT2US_r042La0gvQkuVb3lyKNlLEo9sF8msK3mMRH1eCP44wEFcW9GMdRm4qnl61Evnd0PNlB9gI0jqc_zJEslNYopN7TSf2co2r334GhJkgLO0MEpvkeupZlUeR0NsF2chIgykDIEbfUzcPNoDnQeCxG2Xq1KbBxavWeFkGoKu68ae_UQZ3leWldzCfQ9_1yEzVJR5zVWd1TDH0pt4UHFGKYyD0qpVUBTloAc.webp?r=94c', alt: 'image 1'},
@@ -27,9 +28,37 @@ export default function NetflixContent(){
       // {image: '', alt: ''},
   ]
   return(
-    <section className="pb-56">
-      <section className="relative flex flex-col gap-y-2 -top-48">
-        <h1 className="text-xl">Imaginate TV Shows</h1>
+    <section className="pt-12 background-section">
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+        <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
+        <CarouselNetflix populars={populars}/>
+      </section>
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+        <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
+        <CarouselNetflix populars={populars}/>
+      </section>
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+        <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
+        <CarouselNetflix populars={populars}/>
+      </section>
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+        <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
+        <CarouselNetflix populars={populars}/>
+      </section>
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+        <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
+        <CarouselNetflix populars={populars}/>
+      </section>
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+        <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
+        <CarouselNetflix populars={populars}/>
+      </section>
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+        <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
+        <CarouselNetflix populars={populars}/>
+      </section>
+      <section className="relative flex flex-col py-5 px-14 gap-y-2 -top-48">
+        <h1 className="text-xl font-semibold">Imaginate TV Shows</h1>
         <CarouselNetflix populars={populars}/>
       </section>
     </section>

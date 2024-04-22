@@ -25,7 +25,7 @@ export default function CarouselNetflix({ populars }: CarouselProps) {
   }
   return (
     <div className=''>
-      <div className="slide-container">
+      <div className="carousel-netflix slide-container">
         <Carousel
           className=''
           arrows={true}
@@ -35,18 +35,16 @@ export default function CarouselNetflix({ populars }: CarouselProps) {
           // showDots={true}
           // autoPlay={true}
           // autoPlaySpeed={3000}
+          // centerMode={true}
           rewind={true}
           infinite={true}
-          // centerMode={true}
           slidesToSlide={6}
         >
-
           {populars.map((dato: any, index: number) => (
-            <div className='flex px-1' key={index}>
+            <div className='flex px-0.5' key={index}>
               <img key={index} src={dato.image} alt={dato.alt} className='rounded-sm' />
             </div>
           ))}
-
         </Carousel>
       </div>
     </div>

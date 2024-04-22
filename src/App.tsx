@@ -13,6 +13,7 @@ import HeaderNet from './Netflix/HeaderNet';
 import HeroStar from './Netflix/HeroStar';
 import Profiles from './components/Profiles';
 import NetflixContent from './Netflix/NetflixContent';
+import FooterNetflix from './Netflix/FooterNetflix';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
           <Footer />
         </>} />
         <Route path='/login' element={<LogIn />} />
-        <Route path='/browse' element={<><HeaderNet /> <HeroStar /> <NetflixContent/></>} />
+        <Route path='/browse' element={<><HeaderNet /> <HeroStar /> <NetflixContent /> <FooterNetflix /> </>} />
         <Route path='/profiles' element={<Profiles />} />
       </Routes>
     </Router>

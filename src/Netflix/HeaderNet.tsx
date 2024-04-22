@@ -1,8 +1,9 @@
 import { SearchIcon } from "../icons/Search";
+import '../styles/css/netflix.css'
 
 export default function HeaderNet() {
   return (
-    <section className="px-2 py-5 bg-gradient-to-b from-black to-neutral-900 md:px-14">
+    <section className="fixed z-50 w-full px-2 py-5 md:px-14 header-background">
       <nav className='flex items-center justify-between '>
         <div className="flex items-center gap-x-11">
           <img className="w-20 md:w-24" src="img/logo.png" alt="" />

@@ -11,26 +11,25 @@ export default function LogIn() {
   const inputPassword = useRef<HTMLInputElement>(null)
 
   function handleInputName() {
-    const value = inputName.current ? inputName?.current?.value : ''
-    if (value.length > 8 && value.includes('.com') && value.includes('@')) {
+    const valueName = inputName.current ? inputName?.current?.value : ''
+    if (valueName.length > 8 && valueName.includes('.com') && valueName.includes('@')) {
       setNameValue(false)
     } else {
       setNameValue(true)
     }
   }
+
   function handleInputPassword() {
-    const value = inputPassword.current ? inputPassword?.current?.value : ''
-    if (value.length > 4 && value.length < 60) {
+    const valueInput = inputPassword.current ? inputPassword?.current?.value : ''
+    const enter = inputName?.current && inputName?.current?.value.length > 8 && valueInput.length > 4 && !nameValue === true && !passwordValue === true ? '/browse' : ''
+    setEnter(enter)
+    if (valueInput.length > 4 && valueInput.length < 60) {
       setPassword(false)
     } else {
       setPassword(true)
     }
   }
-  function handleLog() {
-    console.log()
-    const enter = !nameValue === true && !passwordValue === true ? '/browse' : ''
-    setEnter(enter)
-  }
+
   return (
     <section className="bg-cover " style={{ backgroundImage: 'url(https://assets.nflxext.com/ffe/siteui/vlv3/9f46b569-aff7-4975-9b8e-3212e4637f16/19824ecf-794c-44aa-ae8a-d987a8feee3e/CO-en-20240415-popsignuptwoweeks-perspective_alpha_website_medium.jpg)' }}>
       <section className="py-6 bg-black px-44 bg-opacity-55">
@@ -48,9 +47,9 @@ export default function LogIn() {
               <input ref={inputPassword} onChange={handleInputPassword} type="password" className="w-full px-4 py-4 bg-opacity-75 border-2 border-gray-400 rounded-md placeholder:text-gray-400 bg-neutral-900" placeholder="Password" />
               {passwordValue && (<div className="text-[#eb3942] gap-x-1 flex text-sm"><XIcon />Your password must contain between 4 and 60 characters.</div>
               )}
-              <div onClick={handleLog}>
-                <Link to={enter}> <button className="w-full px-3 py-2 font-semibold bg-[#E50914] rounded-md">Sign In</button></Link>
-              </div>
+
+              <Link to={enter}> <button className="w-full px-3 py-2 font-semibold bg-[#E50914] rounded-md">Sign In</button></Link>
+
             </div>
             <div className="flex items-center">
               <input type="checkbox" value="" className="w-4 h-4 text-red-600 bg-gray-900 border-gray-100 rounded" />
