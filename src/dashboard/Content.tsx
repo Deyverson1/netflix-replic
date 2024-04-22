@@ -1,7 +1,7 @@
 import '../styles/css/style.css'
 export default function Content() {
   return (
-    <section className="px-2 py-10 md:px-40">
+    <section className="px-2 py-10 md:px-40 bg-[#000000]">
       <div className="flex flex-col items-center justify-center md:flex-row">
         <div className="md:w-4/12 ">
           <h2 className='w-full pb-3 text-5xl font-semibold'>Disfruta en tu TV.</h2>

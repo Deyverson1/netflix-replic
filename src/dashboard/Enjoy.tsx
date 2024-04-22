@@ -1,7 +1,7 @@
 import '../styles/css/style.css'
 export default function Enjoy() {
   return (
-    <section className="px-2 py-5 md:py-20 md:px-40">
+    <section className="px-2 py-5 md:py-20 md:px-40 bg-[#000000]">
       <div className="flex flex-col items-center justify-center w-full md:flex-row">
         <div className="w-5/12">
           <h2 className='w-full pb-3 text-4xl font-semibold md:text-5xl'>Disfruta donde quieras.</h2>

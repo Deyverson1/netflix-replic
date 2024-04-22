@@ -6,7 +6,7 @@ export default function Footer() {
   const fourthRow = ['Media Center', 'Buy Gifth Cards', 'Cookies Preferences', 'Legal Notices']
 
   return (
-    <section style={{ borderBottom: 'none' }} className="flex flex-col justify-center w-full pb-20 px-14 md:items-center md:px-44">
+    <section style={{ borderBottom: 'none' }} className="flex flex-col justify-center w-full pb-20 px-14 md:items-center md:px-44 bg-[#000000]">
       <div className='pb-10'>
         <h2 className='text-md text-[#ffffffb3]'>Questions? Call <span className='underline text-[#ffffffb3]'>01 800 917 1564</span></h2>
       </div>

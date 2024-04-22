@@ -2,7 +2,7 @@ import GetStartedInput from '../components/GetStarted'
 import '../styles/css/style.css'
 export default function Questions() {
   return (
-    <section className="flex px-8 md:items-center md:px-36 preguntas">
+    <section className="flex px-8 md:items-center md:px-36 preguntas bg-[#000000]">
       <div className="flex flex-col w-full md:w-7/12 contPreguntas gap-y-2">
         <h2 className='pt-10 pb-2 text-2xl'>
           Frequently Asked Questions</h2>

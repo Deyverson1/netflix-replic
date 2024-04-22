@@ -11,7 +11,7 @@ export default function Reason() {
     { title: 'Create profiles for kids', description: 'Send kids on adventures with their favorite characters in a space made just for them — free with your membership.', icon: Profiles },
   ]
   return (
-    <section className="flex flex-col px-2 pt-10 md:px-40 bg-gradient-to-bottom-right from-gray-500 via-purple-500 to-pink-500">
+    <section className="flex bg-[#000000] flex-col px-2 pt-10 md:px-40 bg-gradient-to-bottom-right from-gray-500 via-purple-500 to-pink-500">
       <h3 className="text-2xl font-semibold text-gray-100">More Reasons to Join</h3>
       <main className="flex flex-wrap flex-1 gap-2 pt-4 md:gap-4">
         {data.map((dato, index) => (

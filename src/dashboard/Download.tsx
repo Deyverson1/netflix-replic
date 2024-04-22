@@ -1,7 +1,7 @@
 import '../styles/css/style.css'
 export default function Download() {
   return (
-    <section className="flex items-center justify-center px-2 md:py-20 pb-28 md:px-40">
+    <section className="flex items-center justify-center px-2 md:py-20 pb-28 md:px-40 bg-[#000000]">
       <div className="flex flex-col-reverse items-center justify-center md:flex-row">
         <div className="w-6/12 izquierda ">
           <div className="flex items-center justify-center md:flex-row ">
