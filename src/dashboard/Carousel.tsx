@@ -2,6 +2,7 @@ import { useState } from 'react';
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import GetStartedInput from '../components/GetStarted';
+import '../styles/css/style.css'
 
 export default function CarouselDashboard() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -34,8 +35,9 @@ export default function CarouselDashboard() {
 
   return (
     <div className='w-full h-screen'>
+      <section className='cabecera-fondo'></section>
       <div
-        className='flex flex-col items-center justify-center w-full h-full bg-center bg-cover '
+        className='z-50 flex flex-col items-center justify-center w-full h-full bg-center bg-cover '
         style={{ backgroundImage: `url(${backgrounds[currentSlide]})`, aspectRatio: '16/9' }}>
         <Carousel
           className='flex justify-start w-full px-8 md:px-40'
