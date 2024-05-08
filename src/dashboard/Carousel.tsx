@@ -51,7 +51,7 @@ export default function CarouselDashboard() {
           beforeChange={handleSlideChange}>
             
           <div id="slide1" className='w-10/12 pt-64 md:w-5/12 md:pt-52'>
-            <h1 className='w-full text-3xl font-bold md:text-6xl'>Unlimited movies, TV shows, and more</h1>
+            <h1 className='w-full text-3xl font-bold md:text-5xl'>Unlimited movies, TV shows, and more</h1>
             <h2 className='pt-4 text-lg font-semibold'>Starts at COP 16,900. Cancel anytime.</h2>
             <GetStartedInput />
           </div>

@@ -24,8 +24,8 @@ export default function Download() {
           </div>
         </div>
         <div className="md:pt-20 md:w-5/12 derecha flotanteTexto">
-          <h2 className='w-full pb-5 text-4xl font-semibold md:text-5xl'>Descarga contenidos para ver donde vayas.</h2>
-          <p className='pl-1 text-lg tracking-tight'>Disfruta offline tus películas y programas favoritos.</p>
+          <h2 className='w-full pb-5 text-5xl font-bold tracking-tighter md:text-54l'>Descarga contenidos para ver donde vayas.</h2>
+          <p className='pl-1 text-lg tracking-tight text-gray-300'>Disfruta offline tus películas y programas favoritos.</p>
         </div>
       </div>
     </section>
